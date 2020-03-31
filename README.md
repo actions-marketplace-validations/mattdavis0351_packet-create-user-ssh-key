@@ -31,6 +31,7 @@ jobs:
     name: Store new user level SSH key
     steps:
       - uses: mattdavis0351/packet-create-user-ssh-key@v1
+        id: key
         with:
           API_key: ${{ secrets.PACKET_API_KEY }}
           key_label: our-admin
