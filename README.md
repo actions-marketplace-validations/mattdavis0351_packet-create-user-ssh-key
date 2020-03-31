@@ -26,7 +26,7 @@ on: [push]
 name: Packet Project Sample
 
 jobs:
-  create-new-project:
+  store-new-public-key:
     runs-on: ubuntu-latest
     name: Store new user level SSH key
     steps:
